@@ -1,0 +1,804 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:apa102c
+LIBS:armbow-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X12 P2
+U 1 1 584EDC62
+P 2075 1650
+F 0 "P2" H 2075 2300 50  0000 C CNN
+F 1 "CONN_01X12" V 2175 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12" H 2075 1650 50  0001 C CNN
+F 3 "" H 2075 1650 50  0000 C CNN
+	1    2075 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X12 P5
+U 1 1 584EDD34
+P 1475 1650
+F 0 "P5" H 1475 2300 50  0000 C CNN
+F 1 "CONN_01X12" V 1575 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12" H 1475 1650 50  0001 C CNN
+F 3 "" H 1475 1650 50  0000 C CNN
+	1    1475 1650
+	1    0    0    1   
+$EndComp
+Text GLabel 2275 1900 2    60   Input ~ 0
+GND
+Text GLabel 1275 1900 0    60   Input ~ 0
+V33
+Text GLabel 1275 1500 0    60   Input ~ 0
+A0
+Text GLabel 2275 1700 2    60   Input ~ 0
+D3
+Text GLabel 2275 1600 2    60   Input ~ 0
+D4
+Text GLabel 2275 1500 2    60   Input ~ 0
+D5
+Text GLabel 2275 1200 2    60   Input ~ 0
+D8
+$Comp
+L R_Small R1
+U 1 1 584EE646
+P 1200 4150
+F 0 "R1" H 1230 4170 50  0000 L CNN
+F 1 "1K" H 1230 4110 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 1200 4150 50  0001 C CNN
+F 3 "" H 1200 4150 50  0000 C CNN
+	1    1200 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 850  4150 0    60   Input ~ 0
+D3
+$Comp
+L PZT2222A Q1
+U 1 1 584EE7CD
+P 1850 4150
+F 0 "Q1" H 2050 4225 50  0000 L CNN
+F 1 "PZT2222A" H 2050 4150 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2050 4075 50  0000 L CIN
+F 3 "" H 1850 4150 50  0000 L CNN
+	1    1850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 584EE92F
+P 1950 3750
+F 0 "R2" H 1980 3770 50  0000 L CNN
+F 1 "10" H 1980 3710 50  0000 L CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_1206_RM10_HandSoldering" H 1950 3750 50  0001 C CNN
+F 3 "" H 1950 3750 50  0000 C CNN
+	1    1950 3750
+	-1   0    0    1   
+$EndComp
+Text GLabel 1950 4600 0    60   Input ~ 0
+GND
+Text GLabel 2840 4285 0    60   Input ~ 0
+D12
+$Comp
+L R_Small R3
+U 1 1 584EF444
+P 3140 4285
+F 0 "R3" H 3170 4305 50  0000 L CNN
+F 1 "1K" H 3170 4245 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 3140 4285 50  0001 C CNN
+F 3 "" H 3140 4285 50  0000 C CNN
+	1    3140 4285
+	0    1    1    0   
+$EndComp
+$Comp
+L PZT2222A Q2
+U 1 1 584EF49C
+P 3590 4285
+F 0 "Q2" H 3790 4360 50  0000 L CNN
+F 1 "PZT2222A" H 3790 4285 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3790 4210 50  0000 L CIN
+F 3 "" H 3590 4285 50  0000 L CNN
+	1    3590 4285
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 584EF4F5
+P 3690 3785
+F 0 "R4" H 3720 3805 50  0000 L CNN
+F 1 "50" H 3720 3745 50  0000 L CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_1206_RM10_HandSoldering" H 3690 3785 50  0001 C CNN
+F 3 "" H 3690 3785 50  0000 C CNN
+	1    3690 3785
+	-1   0    0    1   
+$EndComp
+Text GLabel 3690 4835 0    60   Input ~ 0
+GND
+Text GLabel 3690 3135 1    60   Input ~ 0
+CATH_Laser
+Text GLabel 1600 7000 2    60   Input ~ 0
+RX(Weapon)
+Text GLabel 1625 6800 2    60   Input ~ 0
+TX(Weapon)
+Text GLabel 1600 7200 2    60   Input ~ 0
+V50
+Text GLabel 1625 6600 2    60   Input ~ 0
+GND
+Text GLabel 2750 5500 0    60   Input ~ 0
+V33
+Text GLabel 2750 5300 0    60   Input ~ 0
+V50
+Text GLabel 2750 5600 0    60   Input ~ 0
+A0
+Text GLabel 1950 3300 1    60   Input ~ 0
+CATH_IRLED
+$Comp
+L BSS138 Q4
+U 1 1 58513E94
+P 5175 1625
+F 0 "Q4" H 5375 1700 50  0000 L CNN
+F 1 "BSS138" H 5375 1625 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5375 1550 50  0001 L CIN
+F 3 "" H 5175 1625 50  0000 L CNN
+	1    5175 1625
+	0    1    1    0   
+$EndComp
+Text GLabel 4875 1725 0    60   Input ~ 0
+D7
+$Comp
+L R_Small R6
+U 1 1 5851476D
+P 4925 1550
+F 0 "R6" H 4955 1570 50  0000 L CNN
+F 1 "10K" H 4955 1510 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 4925 1550 50  0001 C CNN
+F 3 "" H 4925 1550 50  0000 C CNN
+	1    4925 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R10
+U 1 1 58514A70
+P 5475 1525
+F 0 "R10" H 5505 1545 50  0000 L CNN
+F 1 "1K" H 5505 1485 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 5475 1525 50  0001 C CNN
+F 3 "" H 5475 1525 50  0000 C CNN
+	1    5475 1525
+	-1   0    0    1   
+$EndComp
+Text GLabel 4925 1350 1    60   Input ~ 0
+V33
+Text GLabel 5525 3450 2    60   Input ~ 0
+ARROW_DATA_IN
+$Comp
+L BSS138 Q6
+U 1 1 58516376
+P 5200 3350
+F 0 "Q6" H 5400 3425 50  0000 L CNN
+F 1 "BSS138" H 5400 3350 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5400 3275 50  0001 L CIN
+F 3 "" H 5200 3350 50  0000 L CNN
+	1    5200 3350
+	0    1    1    0   
+$EndComp
+Text GLabel 4900 3450 0    60   Input ~ 0
+D6
+$Comp
+L R_Small R8
+U 1 1 5851637D
+P 4950 3275
+F 0 "R8" H 4980 3295 50  0000 L CNN
+F 1 "10K" H 4980 3235 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 4950 3275 50  0001 C CNN
+F 3 "" H 4950 3275 50  0000 C CNN
+	1    4950 3275
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R12
+U 1 1 58516383
+P 5500 3250
+F 0 "R12" H 5530 3270 50  0000 L CNN
+F 1 "1K" H 5530 3210 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 5500 3250 50  0001 C CNN
+F 3 "" H 5500 3250 50  0000 C CNN
+	1    5500 3250
+	-1   0    0    1   
+$EndComp
+Text GLabel 4950 3075 1    60   Input ~ 0
+V33
+Text GLabel 5500 1725 2    60   Input ~ 0
+ARROW_CLOCK_IN
+Text GLabel 2750 5700 0    60   Input ~ 0
+CATH_IRLED
+Text GLabel 2750 5800 0    60   Input ~ 0
+CATH_Laser
+$Comp
+L BSS138 Q3
+U 1 1 5851AF42
+P 5150 5000
+F 0 "Q3" H 5350 5075 50  0000 L CNN
+F 1 "BSS138" H 5350 5000 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5350 4925 50  0001 L CIN
+F 3 "" H 5150 5000 50  0000 L CNN
+	1    5150 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 4875 6550 0    60   Input ~ 0
+D5
+$Comp
+L R_Small R5
+U 1 1 5851AF49
+P 4900 4925
+F 0 "R5" H 4930 4945 50  0000 L CNN
+F 1 "10K" H 4930 4885 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 4900 4925 50  0001 C CNN
+F 3 "" H 4900 4925 50  0000 C CNN
+	1    4900 4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R9
+U 1 1 5851AF4F
+P 5450 4900
+F 0 "R9" H 5480 4920 50  0000 L CNN
+F 1 "1K" H 5480 4860 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 5450 4900 50  0001 C CNN
+F 3 "" H 5450 4900 50  0000 C CNN
+	1    5450 4900
+	-1   0    0    1   
+$EndComp
+Text GLabel 4900 4725 1    60   Input ~ 0
+V33
+Text GLabel 5500 6550 2    60   Input ~ 0
+RECHARGE_DATA_IN
+$Comp
+L BSS138 Q5
+U 1 1 5851AF63
+P 5175 6450
+F 0 "Q5" H 5375 6525 50  0000 L CNN
+F 1 "BSS138" H 5375 6450 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5375 6375 50  0001 L CIN
+F 3 "" H 5175 6450 50  0000 L CNN
+	1    5175 6450
+	0    1    1    0   
+$EndComp
+Text GLabel 4850 5100 0    60   Input ~ 0
+D4
+$Comp
+L R_Small R7
+U 1 1 5851AF6A
+P 4925 6375
+F 0 "R7" H 4955 6395 50  0000 L CNN
+F 1 "10K" H 4955 6335 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 4925 6375 50  0001 C CNN
+F 3 "" H 4925 6375 50  0000 C CNN
+	1    4925 6375
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R11
+U 1 1 5851AF70
+P 5475 6350
+F 0 "R11" H 5505 6370 50  0000 L CNN
+F 1 "1K" H 5505 6310 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 5475 6350 50  0001 C CNN
+F 3 "" H 5475 6350 50  0000 C CNN
+	1    5475 6350
+	-1   0    0    1   
+$EndComp
+Text GLabel 4925 6175 1    60   Input ~ 0
+V33
+Text GLabel 5475 5100 2    60   Input ~ 0
+RECHARGE_CLOCK_IN
+Text GLabel 2275 1300 2    60   Input ~ 0
+D7
+Text GLabel 2275 1400 2    60   Input ~ 0
+D6
+Wire Wire Line
+	2325 2300 2275 2300
+Wire Wire Line
+	2275 2300 2275 2200
+Wire Wire Line
+	2325 2150 2275 2150
+Wire Wire Line
+	2275 2150 2275 2100
+Wire Wire Line
+	1100 4150 850  4150
+Wire Wire Line
+	1300 4150 1650 4150
+Wire Wire Line
+	1950 3850 1950 3950
+Wire Wire Line
+	1950 4350 1950 4600
+Wire Wire Line
+	1950 3300 1950 3650
+Wire Wire Line
+	3690 3135 3690 3685
+Wire Wire Line
+	3690 3885 3690 4085
+Wire Wire Line
+	2840 4285 3040 4285
+Wire Wire Line
+	3240 4285 3390 4285
+Wire Wire Line
+	3690 4485 3690 4835
+Wire Wire Line
+	4925 1350 4925 1450
+Wire Wire Line
+	4925 1375 5125 1375
+Wire Wire Line
+	5125 1375 5125 1425
+Connection ~ 4925 1375
+Wire Wire Line
+	4875 1725 4975 1725
+Wire Wire Line
+	4925 1725 4925 1650
+Connection ~ 4925 1725
+Wire Wire Line
+	5375 1725 5500 1725
+Wire Wire Line
+	5475 1725 5475 1625
+Wire Wire Line
+	5475 1425 5475 1375
+Connection ~ 5475 1725
+Wire Wire Line
+	4950 3075 4950 3175
+Wire Wire Line
+	4950 3100 5150 3100
+Wire Wire Line
+	5150 3100 5150 3150
+Connection ~ 4950 3100
+Wire Wire Line
+	4900 3450 5000 3450
+Wire Wire Line
+	4950 3450 4950 3375
+Connection ~ 4950 3450
+Wire Wire Line
+	5400 3450 5525 3450
+Wire Wire Line
+	5500 3450 5500 3350
+Wire Wire Line
+	5500 3150 5500 3100
+Connection ~ 5500 3450
+Wire Wire Line
+	4900 4725 4900 4825
+Wire Wire Line
+	4900 4750 5100 4750
+Wire Wire Line
+	5100 4750 5100 4800
+Connection ~ 4900 4750
+Wire Wire Line
+	4850 5100 4950 5100
+Wire Wire Line
+	4900 5100 4900 5025
+Connection ~ 4900 5100
+Wire Wire Line
+	5350 5100 5475 5100
+Wire Wire Line
+	5450 5100 5450 5000
+Wire Wire Line
+	5450 4800 5450 4750
+Connection ~ 5450 5100
+Wire Wire Line
+	4925 6175 4925 6275
+Wire Wire Line
+	4925 6200 5125 6200
+Wire Wire Line
+	5125 6200 5125 6250
+Connection ~ 4925 6200
+Wire Wire Line
+	4875 6550 4975 6550
+Wire Wire Line
+	4925 6550 4925 6475
+Connection ~ 4925 6550
+Wire Wire Line
+	5375 6550 5500 6550
+Wire Wire Line
+	5475 6550 5475 6450
+Wire Wire Line
+	5475 6250 5475 6200
+Connection ~ 5475 6550
+$Comp
+L USB_B P1
+U 1 1 5854560B
+P 925 6700
+F 0 "P1" H 1125 6500 50  0000 C CNN
+F 1 "USB_B_TOVEST" H 875 6900 50  0000 C CNN
+F 2 "Connect:USB_B" V 875 6600 50  0001 C CNN
+F 3 "" V 875 6600 50  0000 C CNN
+	1    925  6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1625 6600 1225 6600
+Wire Wire Line
+	1625 6800 1475 6800
+Wire Wire Line
+	1475 6800 1475 6700
+Wire Wire Line
+	1475 6700 1225 6700
+Wire Wire Line
+	1600 7000 1400 7000
+Wire Wire Line
+	1400 7000 1400 6800
+Wire Wire Line
+	1400 6800 1225 6800
+Wire Wire Line
+	1600 7200 1275 7200
+Wire Wire Line
+	1275 7200 1275 6900
+Wire Wire Line
+	1275 6900 1225 6900
+Text GLabel 2325 2300 2    60   Input ~ 0
+TX(Weapon)
+Text GLabel 2325 2150 2    60   Input ~ 0
+RX(Weapon)
+Text GLabel 1275 2200 0    60   Input ~ 0
+V50
+Text GLabel 1275 2100 0    60   Input ~ 0
+GND
+Text GLabel 5475 1375 1    60   Input ~ 0
+V50
+Text GLabel 5450 4750 1    60   Input ~ 0
+V50
+Text GLabel 5500 3100 1    60   Input ~ 0
+V50
+Text GLabel 5475 6200 1    60   Input ~ 0
+V50
+$Comp
+L CONN_01X04 P7
+U 1 1 58565E6C
+P 8725 2475
+F 0 "P7" H 8725 2725 50  0000 C CNN
+F 1 "ARROWS_DOTSTART" V 8825 2475 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 8725 2475 50  0001 C CNN
+F 3 "" H 8725 2475 50  0000 C CNN
+	1    8725 2475
+	1    0    0    -1  
+$EndComp
+Text GLabel 8525 2325 0    60   Input ~ 0
+V50
+Text GLabel 8525 2625 0    60   Input ~ 0
+GND
+Text GLabel 8525 2525 0    60   Input ~ 0
+ARROW_DATA_IN
+Text GLabel 8525 2425 0    60   Input ~ 0
+ARROW_CLOCK_IN
+$Comp
+L CONN_01X04 P6
+U 1 1 58566260
+P 8975 4150
+F 0 "P6" H 8975 4400 50  0000 C CNN
+F 1 "RECHARGE_DOTSTART" V 9075 4150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 8975 4150 50  0001 C CNN
+F 3 "" H 8975 4150 50  0000 C CNN
+	1    8975 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8775 4300 0    60   Input ~ 0
+GND
+Text GLabel 8775 4200 0    60   Input ~ 0
+RECHARGE_DATA_IN
+Text GLabel 8775 4100 0    60   Input ~ 0
+RECHARGE_CLOCK_IN
+$Comp
+L SW_PUSH SW1
+U 1 1 58566F39
+P 3450 1275
+F 0 "SW1" H 3600 1385 50  0000 C CNN
+F 1 "SW_PUSH" H 3450 1195 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH-12mm" H 3450 1275 50  0001 C CNN
+F 3 "" H 3450 1275 50  0000 C CNN
+	1    3450 1275
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8775 4000 0    60   Input ~ 0
+V50
+$Comp
+L SW_PUSH SW2
+U 1 1 58567850
+P 4025 1275
+F 0 "SW2" H 4175 1385 50  0000 C CNN
+F 1 "SW_PUSH" H 4025 1195 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH-12mm" H 4025 1275 50  0001 C CNN
+F 3 "" H 4025 1275 50  0000 C CNN
+	1    4025 1275
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3450 975  1    60   Input ~ 0
+V33
+Text GLabel 4025 975  1    60   Input ~ 0
+V33
+$Comp
+L R_Small R13
+U 1 1 5850CC6F
+P 3450 1775
+F 0 "R13" H 3480 1795 50  0000 L CNN
+F 1 "10K" H 3480 1735 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 3450 1775 50  0001 C CNN
+F 3 "" H 3450 1775 50  0000 C CNN
+	1    3450 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R14
+U 1 1 5850CDAF
+P 4025 1775
+F 0 "R14" H 4055 1795 50  0000 L CNN
+F 1 "10K" H 4055 1735 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 4025 1775 50  0001 C CNN
+F 3 "" H 4025 1775 50  0000 C CNN
+	1    4025 1775
+	1    0    0    -1  
+$EndComp
+Text GLabel 2275 1100 2    60   Input ~ 0
+D9
+Text GLabel 1275 1100 0    60   Input ~ 0
+D10
+Text GLabel 3400 1625 0    60   Input ~ 0
+D10
+Text GLabel 3975 1625 0    60   Input ~ 0
+D11
+Text GLabel 3450 1875 3    60   Input ~ 0
+GND
+Text GLabel 4025 1875 3    60   Input ~ 0
+GND
+Wire Wire Line
+	3450 1575 3450 1675
+Wire Wire Line
+	3400 1625 3450 1625
+Connection ~ 3450 1625
+Wire Wire Line
+	4025 1575 4025 1675
+Wire Wire Line
+	3975 1625 4025 1625
+Connection ~ 4025 1625
+Text GLabel 1275 1200 0    60   Input ~ 0
+D11
+Text GLabel 1275 1300 0    60   Input ~ 0
+D12
+$Comp
+L CONN_01X06 P3
+U 1 1 58516A22
+P 2950 5550
+F 0 "P3" H 2950 5900 50  0000 C CNN
+F 1 "To_Bow_Connection" V 3050 5550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 2950 5550 50  0001 C CNN
+F 3 "" H 2950 5550 50  0000 C CNN
+	1    2950 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 5400 0    60   Input ~ 0
+GND
+Text GLabel 6625 2600 1    60   Input ~ 0
+V33
+Text GLabel 6625 2900 3    60   Input ~ 0
+V33
+$Comp
+L R_Small R15
+U 1 1 585184F1
+P 6625 2750
+F 0 "R15" H 6655 2770 50  0000 L CNN
+F 1 "0" H 6655 2710 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 6625 2750 50  0001 C CNN
+F 3 "" H 6625 2750 50  0000 C CNN
+	1    6625 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6625 2600 6625 2650
+Wire Wire Line
+	6625 2625 6700 2625
+Wire Wire Line
+	6700 2625 6700 2875
+Wire Wire Line
+	6700 2875 6625 2875
+Wire Wire Line
+	6625 2850 6625 2900
+Connection ~ 6625 2625
+Connection ~ 6625 2875
+Text GLabel 6850 2600 1    60   Input ~ 0
+V33
+Text GLabel 6850 2900 3    60   Input ~ 0
+V33
+$Comp
+L R_Small R16
+U 1 1 5851899C
+P 6850 2750
+F 0 "R16" H 6880 2770 50  0000 L CNN
+F 1 "0" H 6880 2710 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 6850 2750 50  0001 C CNN
+F 3 "" H 6850 2750 50  0000 C CNN
+	1    6850 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 2600 6850 2650
+Wire Wire Line
+	6850 2625 6925 2625
+Wire Wire Line
+	6925 2625 6925 2875
+Wire Wire Line
+	6925 2875 6850 2875
+Wire Wire Line
+	6850 2850 6850 2900
+Connection ~ 6850 2625
+Connection ~ 6850 2875
+Text GLabel 7050 2600 1    60   Input ~ 0
+V33
+Text GLabel 7050 2900 3    60   Input ~ 0
+V33
+$Comp
+L R_Small R17
+U 1 1 585189FA
+P 7050 2750
+F 0 "R17" H 7080 2770 50  0000 L CNN
+F 1 "0" H 7080 2710 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 7050 2750 50  0001 C CNN
+F 3 "" H 7050 2750 50  0000 C CNN
+	1    7050 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 2600 7050 2650
+Wire Wire Line
+	7050 2625 7125 2625
+Wire Wire Line
+	7125 2625 7125 2875
+Wire Wire Line
+	7125 2875 7050 2875
+Wire Wire Line
+	7050 2850 7050 2900
+Connection ~ 7050 2625
+Connection ~ 7050 2875
+Text GLabel 7375 2600 1    60   Input ~ 0
+V50
+Text GLabel 7375 2900 3    60   Input ~ 0
+V50
+$Comp
+L R_Small R18
+U 1 1 58518B45
+P 7375 2750
+F 0 "R18" H 7405 2770 50  0000 L CNN
+F 1 "0" H 7405 2710 50  0000 L CNN
+F 2 "Resistors_SMD:R_2010" H 7375 2750 50  0001 C CNN
+F 3 "" H 7375 2750 50  0000 C CNN
+	1    7375 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7375 2600 7375 2650
+Wire Wire Line
+	7375 2625 7450 2625
+Wire Wire Line
+	7450 2625 7450 2875
+Wire Wire Line
+	7450 2875 7375 2875
+Wire Wire Line
+	7375 2850 7375 2900
+Connection ~ 7375 2625
+Connection ~ 7375 2875
+Text GLabel 6375 2600 1    60   Input ~ 0
+V33
+Text GLabel 6375 2900 3    60   Input ~ 0
+V33
+$Comp
+L R_Small R19
+U 1 1 5850A257
+P 6375 2750
+F 0 "R19" H 6405 2770 50  0000 L CNN
+F 1 "0" H 6405 2710 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 6375 2750 50  0001 C CNN
+F 3 "" H 6375 2750 50  0000 C CNN
+	1    6375 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6375 2600 6375 2650
+Wire Wire Line
+	6375 2625 6450 2625
+Wire Wire Line
+	6450 2625 6450 2875
+Wire Wire Line
+	6450 2875 6375 2875
+Wire Wire Line
+	6375 2850 6375 2900
+Connection ~ 6375 2625
+Connection ~ 6375 2875
+Text GLabel 6775 3675 1    60   Input ~ 0
+V50
+Text GLabel 6775 3975 3    60   Input ~ 0
+V50
+$Comp
+L R_Small R20
+U 1 1 5850A68D
+P 6775 3825
+F 0 "R20" H 6805 3845 50  0000 L CNN
+F 1 "0" H 6805 3785 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 6775 3825 50  0001 C CNN
+F 3 "" H 6775 3825 50  0000 C CNN
+	1    6775 3825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6775 3675 6775 3725
+Wire Wire Line
+	6775 3700 6850 3700
+Wire Wire Line
+	6850 3700 6850 3950
+Wire Wire Line
+	6850 3950 6775 3950
+Wire Wire Line
+	6775 3925 6775 3975
+Connection ~ 6775 3700
+Connection ~ 6775 3950
+Text GLabel 7125 3675 1    60   Input ~ 0
+V50
+Text GLabel 7125 3975 3    60   Input ~ 0
+V50
+$Comp
+L R_Small R21
+U 1 1 5850A9B6
+P 7125 3825
+F 0 "R21" H 7155 3845 50  0000 L CNN
+F 1 "0" H 7155 3785 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" H 7125 3825 50  0001 C CNN
+F 3 "" H 7125 3825 50  0000 C CNN
+	1    7125 3825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7125 3675 7125 3725
+Wire Wire Line
+	7125 3700 7200 3700
+Wire Wire Line
+	7200 3700 7200 3950
+Wire Wire Line
+	7200 3950 7125 3950
+Wire Wire Line
+	7125 3925 7125 3975
+Connection ~ 7125 3700
+Connection ~ 7125 3950
+$EndSCHEMATC
