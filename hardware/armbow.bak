@@ -28,18 +28,19 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:apa102c
 LIBS:armbow-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Armbow"
-Date "2016-12-14"
-Rev "A"
-Comp "Moonbeam Interactive"
-Comment1 "Colin Freeman"
-Comment2 "Matthew Swarts"
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -702,7 +703,7 @@ U 1 1 58518B45
 P 7375 2750
 F 0 "R18" H 7405 2770 50  0000 L CNN
 F 1 "0" H 7405 2710 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206" H 7375 2750 50  0001 C CNN
+F 2 "Resistors_SMD:R_2010" H 7375 2750 50  0001 C CNN
 F 3 "" H 7375 2750 50  0000 C CNN
 	1    7375 2750
 	-1   0    0    1   
@@ -800,31 +801,4 @@ Wire Wire Line
 	7125 3925 7125 3975
 Connection ~ 7125 3700
 Connection ~ 7125 3950
-Text GLabel 7550 2600 1    60   Input ~ 0
-V50
-Text GLabel 7550 2900 3    60   Input ~ 0
-V50
-$Comp
-L R_Small R22
-U 1 1 58514F1A
-P 7550 2750
-F 0 "R22" H 7580 2770 50  0000 L CNN
-F 1 "0" H 7580 2710 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206" H 7550 2750 50  0001 C CNN
-F 3 "" H 7550 2750 50  0000 C CNN
-	1    7550 2750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7550 2600 7550 2650
-Wire Wire Line
-	7550 2625 7625 2625
-Wire Wire Line
-	7625 2625 7625 2875
-Wire Wire Line
-	7625 2875 7550 2875
-Wire Wire Line
-	7550 2850 7550 2900
-Connection ~ 7550 2625
-Connection ~ 7550 2875
 $EndSCHEMATC
