@@ -102,7 +102,7 @@ void loop() {
         }
     }
    else{
-      if(buf==){
+      if(buf[2]==1){
           rechargeNum+=2;
           strip1.setPixelColor(rechargeNum,color);
           strip1.show();
