@@ -1,6 +1,6 @@
 # forearm-weapon
 long range weapon on the forearm
-![Alt text](https://github.com/moonbeaminteractive/forearm-weapon/blob/master/references/HandBow%20assembly%20guide.jpgraw=true "Handbow diagram")
+![Alt text](https://raw.githubusercontent.com/moonbeaminteractive/forearm-weapon/master/references/HandBow%20assembly%20guide.jpg "Handbow diagram")
 
 #Parts:</br>
 3d printed parts</br>
