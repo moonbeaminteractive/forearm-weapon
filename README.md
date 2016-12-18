@@ -3,8 +3,6 @@
 ![design2](models/3.PNG "design2")
 ![design3](models/2.PNG "design3")
 
-
-
 # Forearm-weapon
 long range weapon on the forearm
 ![Alt text](https://raw.githubusercontent.com/moonbeaminteractive/forearm-weapon/master/references/HandBow%20assembly%20guide.jpg "Handbow diagram")
@@ -19,4 +17,5 @@ Arduino Mini Pro</br>
 Wire</br>
 3.3v Laser Pointer module</br>
 
-![名字](models/1.PNG "名字2")
+# Gauntlet
+
