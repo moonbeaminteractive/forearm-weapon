@@ -1,8 +1,9 @@
 # Original Design
+![design1](models/1.PNG "design1")
 
 
 
-# forearm-weapon
+# Forearm-weapon
 long range weapon on the forearm
 ![Alt text](https://raw.githubusercontent.com/moonbeaminteractive/forearm-weapon/master/references/HandBow%20assembly%20guide.jpg "Handbow diagram")
 
