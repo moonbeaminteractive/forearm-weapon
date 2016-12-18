@@ -18,4 +18,5 @@ Wire</br>
 3.3v Laser Pointer module</br>
 
 # Gauntlet
-![laser cut](models/gauntlet laser cut.PNG "laser cut")
+![laser cut](models/guantlet laser cut.png "laser cut")
+![material](models/metrial-07.png "material")
