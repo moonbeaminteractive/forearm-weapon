@@ -23,5 +23,11 @@ Wire</br>
 # Gauntlet
 ![laser cut](models/guantlet laser cut.png "laser cut")
 ![material](models/metrial-07.png "material")
-![material](models/metrial-07.png "material")
+## Features:</br>
+1.The shape of gauntlet is symmetrical which could fit for both left-handed and right-handed users.
+2.The gauntlet is adjustable by using elastic robber band and velcro.
+3.Potential users could cut various soft metarial with scissors easily because of the simple shape of gaunlet.
+4.Gauntlet itself actually indicates identity of the player as a "warrior".
+
+![weapon unactivited](models/weapon unactivited.jpeg "weapon unactivited")
 
