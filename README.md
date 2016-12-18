@@ -18,4 +18,4 @@ Wire</br>
 3.3v Laser Pointer module</br>
 
 # Gauntlet
-
+![laser cut](models/gauntlet laser cut.PNG "laser cut")
