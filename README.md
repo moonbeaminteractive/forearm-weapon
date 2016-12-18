@@ -1,5 +1,7 @@
 # Original Design
 ![design1](models/1.PNG "design1")
+![design2](models/3.PNG "design2")
+![design3](models/2.PNG "design3")
 
 
 
